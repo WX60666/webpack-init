@@ -3,14 +3,14 @@
  */
 
 
-var path = require('path');
-var HtmlwebpackPlugin = require('html-webpack-plugin');
-var webpack = require('webpack');
+let path = require('path');
+let HtmlwebpackPlugin = require('html-webpack-plugin');
+let webpack = require('webpack');
 //定义了一些文件夹的路径
-var ROOT_PATH = path.resolve(__dirname);
-var APP_PATH = path.resolve(ROOT_PATH, 'app');
-var BUILD_PATH = path.resolve(ROOT_PATH, 'build');
-var TEM_PATH = path.resolve(ROOT_PATH, 'templates');
+let ROOT_PATH = path.resolve(__dirname);
+let APP_PATH = path.resolve(ROOT_PATH, 'app');
+let BUILD_PATH = path.resolve(ROOT_PATH, 'build');
+let TEM_PATH = path.resolve(ROOT_PATH, 'templates');
 
 module.exports = {
     devtool: 'eval-source-map',
