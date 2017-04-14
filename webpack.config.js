@@ -67,6 +67,10 @@ module.exports = {
     module:{
         loaders:[
             {
+                test: /\.vue$/,
+                loader: 'vue'
+            },
+            {
                 test: /\.scss$/,
                 loaders: ['style-loader', 'css-loader?sourceMap', 'sass-loader?sourceMap'],
                 include: APP_PATH
