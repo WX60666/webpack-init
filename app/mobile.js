@@ -2,8 +2,7 @@
  * Created by Administrator on 2017/4/13.
  */
 import './sass/main.scss';
-import $ from 'jquery';
-// import 'imports?jQuery=jquery!./plugin.js';
+// import $ from 'jquery';
 
 $(document).ready(function() {
     let app  = document.createElement('div');

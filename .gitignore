@@ -28,3 +28,7 @@ node_modules
 bower_components
 #build result
 build
+.idea/misc.xml
+.idea/modules.xml
+.idea/webpack-init.iml
+.idea/workspace.xml

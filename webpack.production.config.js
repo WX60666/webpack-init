@@ -32,7 +32,6 @@ module.exports = {
         //创建了两个HtmlWebpackPlugin的实例，生成两个页面
         new HtmlwebpackPlugin({
             title: 'Hello World app',
-            //模板文件路径
             template: path.resolve(TEM_PATH, 'index.html'),
             filename: 'index.html',
             //chunks这个参数告诉插件要引用entry里面的哪几个入口
@@ -58,12 +57,12 @@ module.exports = {
         //把入口文件里面的数组打包成verdors.js
         new webpack.optimize.CommonsChunkPlugin({name:'vendors',filename:'vendors.js'}),
     ],
-    devServer: {
-        historyApiFallback: true,
-        hot: true,
-        inline: true,
-        contentBase: "./build"//本地服务器所加载的页面所在的目录
-    },
+    // devServer: {
+    //     historyApiFallback: true,
+    //     hot: true,
+    //     inline: true,
+    //     contentBase: "./build"//本地服务器所加载的页面所在的目录
+    // },
     module:{
         loaders:[
             {
@@ -83,5 +82,4 @@ module.exports = {
             }
         ]
     }
-
 };
