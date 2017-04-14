@@ -2,11 +2,10 @@
 
 A basic webpack starter kit.
 
-this demo shows how webpack works with sass, es6, third-party library(jQuery, moment .etc), legacy javascript code(like jQuery plugin).
+this demo shows how webpack works with sass, es6, third-party library(jQuery), legacy javascript code(like jQuery plugin) Flow etc....
 
 How is it work?
 **install the deps**
-we are testing library using npm(jquery) .
 ```bash
 npm install
 ```
